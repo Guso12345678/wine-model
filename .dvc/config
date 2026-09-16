@@ -1,3 +1,5 @@
-['remote "origin"']
-    url = s3://dvc
-    endpointurl = https://dagshub.com/Guso12345678/wine-model.s3
+[core]
+    remote = origin-s3
+['remote "origin-s3"']
+    url = s3://wine-model
+    endpointurl = https://dagshub.com/api/v1/repo-buckets/s3/Guso12345678
